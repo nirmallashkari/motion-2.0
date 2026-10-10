@@ -1,6 +1,6 @@
 <p align="center"><img src="docs/motion-banner.svg" alt="Motion 2.0: script and voice to AI direction, Blender and Python rendering, and a verified MP4" width="960"></p>
 
-# Motion 2.0 — AI-Directed Blender + Python Video Generator
+# Motion 2.0 — Turn Scripts & Voiceovers into Animated Videos
 
 Turn a script and your recorded voiceover into a narrated motion video on Windows.
 DeepSeek directs the scenes; Blender renders stylized people and their actions;
