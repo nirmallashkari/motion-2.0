@@ -10,6 +10,7 @@ credentials were excluded and preserved.
 | Public setup script | Passed; detected Blender 5.1.1 and FFmpeg 8.0.1 |
 | Existing host/regression suite | 231 tests passed, including real FFmpeg integration |
 | Publication guard regression cases | 3 tests passed |
+| Synthetic mixed-engine BAT smoke render | Passed: 3 seconds, 72 frames, Python/Blender/Python with a generated tone |
 | Tracked source and staged blob audit | No installed API key matches; no forbidden runtime/credential paths |
 
 Tests use synthetic fixtures and mocked API calls. This verification did not call
@@ -23,3 +24,7 @@ Their download is a separate optional setup operation.
 Reproduce the source checks using the commands in [CONTRIBUTING.md](../CONTRIBUTING.md).
 CI covers Windows regression and FFmpeg integration, not a full Blender production
 render or live API availability.
+
+The Blender authoring unit test mocks executable preflight and verifies that the
+preflight is requested; it checks generated package structure, not Blender rendering.
+The separate local mixed-engine smoke render exercised the real installed executable.

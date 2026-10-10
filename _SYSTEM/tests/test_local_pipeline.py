@@ -170,7 +170,11 @@ class LocalPipelineTests(unittest.TestCase):
             return original_generate(messages,schema,tokens)
         client.generate = generate
         author = self.author(client)
-        author.build()
+        # This tests package authoring, not an installed Blender executable.
+        # Verify that tool preflight is requested; production keeps the real gate.
+        with patch('motion.tools_for', return_value={}) as tools:
+            author.build()
+        tools.assert_called_once_with(author.project)
         project, _, _ = contract.validate_package(author.package, self.source)
         self.assertEqual(project["scenes"][0]["engine"], "blender")
         self.assertTrue((author.package/"scripts/scene_001.py").is_file())
