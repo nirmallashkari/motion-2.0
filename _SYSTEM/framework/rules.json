@@ -1,0 +1,9 @@
+{
+  "rulebook_version": "1.0",
+  "max_label_words": 5,
+  "max_frame_words": 12,
+  "max_labels": 3,
+  "max_beat_seconds": 3,
+  "max_near_static_seconds": 3,
+  "captions": "off"
+}

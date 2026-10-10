@@ -1,0 +1,8 @@
+{
+  "revision": "visual-registry-1.0",
+  "recipes": [
+    {"id":"electrical-energy-transfer","keywords":["electrical energy","bijli","electricity"],"icon":"bolt","secondary":"bulb","motion":"transfer","goal":"Transfer a moving energy symbol toward a bulb to illustrate electrical energy reaching a device."},
+    {"id":"lunar-orbit","keywords":["moon orbit","chand","lunar"],"icon":"world","secondary":"moon","motion":"orbit","goal":"Move a moon illustration around the Earth illustration to symbolize an orbital relationship without asserting a numerical scale."},
+    {"id":"money-saving","keywords":["save money","saving money","paise bachao","budget"],"icon":"coin","secondary":"wallet","motion":"transfer","goal":"Move coins toward a wallet to illustrate putting money aside, without adding financial advice or numerical claims."}
+  ]
+}

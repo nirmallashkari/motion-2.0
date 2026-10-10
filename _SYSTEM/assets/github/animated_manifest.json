@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Alarm clock",
+    "repository": "microsoft/fluentui-emoji-animated",
+    "commit": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "inventory_revision": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "source_path": "assets/Alarm clock/animated/alarm_clock_animated.png",
+    "url": "https://media.githubusercontent.com/media/microsoft/fluentui-emoji-animated/daa0365c09795789ed2bc6e8b228c97736cb6669/assets/Alarm%20clock/animated/alarm_clock_animated.png",
+    "local_path": "animated/alarm_clock_animated.png",
+    "sha256": "0929c06ab883b7e4c3cf7717dfa0d93d42733d455fcf7d2874c013866e89d769",
+    "bytes": 1357051,
+    "license": "MIT",
+    "license_file": "_SYSTEM/assets/github/microsoft_LICENSE"
+  },
+  {
+    "name": "Brain",
+    "repository": "microsoft/fluentui-emoji-animated",
+    "commit": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "inventory_revision": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "source_path": "assets/Brain/animated/brain_animated.png",
+    "url": "https://media.githubusercontent.com/media/microsoft/fluentui-emoji-animated/daa0365c09795789ed2bc6e8b228c97736cb6669/assets/Brain/animated/brain_animated.png",
+    "local_path": "animated/brain_animated.png",
+    "sha256": "025de3f893b5c227f7059a1d477b19590b6e3f6b736721b562d24b92d379d74c",
+    "bytes": 865086,
+    "license": "MIT",
+    "license_file": "_SYSTEM/assets/github/microsoft_LICENSE"
+  },
+  {
+    "name": "Rocket",
+    "repository": "microsoft/fluentui-emoji-animated",
+    "commit": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "inventory_revision": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "source_path": "assets/Rocket/animated/rocket_animated.png",
+    "url": "https://media.githubusercontent.com/media/microsoft/fluentui-emoji-animated/daa0365c09795789ed2bc6e8b228c97736cb6669/assets/Rocket/animated/rocket_animated.png",
+    "local_path": "animated/rocket_animated.png",
+    "sha256": "f0743beadaabfe437e5510719a5b27b4aceee72a2e1fb3c4a4275bcae512458e",
+    "bytes": 2455424,
+    "license": "MIT",
+    "license_file": "_SYSTEM/assets/github/microsoft_LICENSE"
+  },
+  {
+    "name": "Flexed biceps",
+    "repository": "microsoft/fluentui-emoji-animated",
+    "commit": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "inventory_revision": "daa0365c09795789ed2bc6e8b228c97736cb6669",
+    "source_path": "assets/Flexed biceps/Default/animated/flexed_biceps_animated_default.png",
+    "url": "https://media.githubusercontent.com/media/microsoft/fluentui-emoji-animated/daa0365c09795789ed2bc6e8b228c97736cb6669/assets/Flexed%20biceps/Default/animated/flexed_biceps_animated_default.png",
+    "local_path": "animated/flexed_biceps_animated_default.png",
+    "sha256": "8a15aec53d4ceab29adaa3621c9f72df18c14c27950d6d039ff2c04cad938a4f",
+    "bytes": 1998777,
+    "license": "MIT",
+    "license_file": "_SYSTEM/assets/github/microsoft_LICENSE"
+  }
+]

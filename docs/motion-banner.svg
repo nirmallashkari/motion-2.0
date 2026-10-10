@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Motion 2.0</title><desc id="desc">AI-directed Blender and Python video production. Script and voice become direction, local animation and a verified movie.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1730"/><stop offset="1" stop-color="#192f50"/></linearGradient></defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<circle cx="1090" cy="75" r="120" fill="#23bfad" opacity=".12"/>
+<g font-family="Arial,sans-serif" fill="#ffffff">
+<text x="56" y="94" font-size="52" font-weight="700">MOTION 2.0</text>
+<text x="58" y="136" font-size="23" fill="#b6c7de">AI-directed stories. Local Blender + Python animation.</text>
+<g font-size="19" font-weight="700" text-anchor="middle">
+<rect x="56" y="200" width="238" height="74" rx="14" fill="#263e5c"/><text x="175" y="245">Script + Voice</text>
+<rect x="336" y="200" width="238" height="74" rx="14" fill="#263e5c"/><text x="455" y="245">AI Director + QA</text>
+<rect x="616" y="200" width="238" height="74" rx="14" fill="#263e5c"/><text x="735" y="245">Blender + Python</text>
+<rect x="896" y="200" width="248" height="74" rx="14" fill="#138576"/><text x="1020" y="245">Verified MP4</text>
+</g><text x="56" y="317" font-size="17" fill="#b6c7de">Open source · Windows · Reusable scenes · Contributors welcome</text></g>
+<g stroke="#63dcc9" stroke-width="3" fill="none"><path d="M302 237h26m-8-7 8 7-8 7M582 237h26m-8-7 8 7-8 7M862 237h26m-8-7 8 7-8 7"/></g>
+</svg>

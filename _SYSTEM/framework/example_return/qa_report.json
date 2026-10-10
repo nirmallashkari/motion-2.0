@@ -1,0 +1,17 @@
+{
+  "status": "authored_unverified",
+  "capabilities": {
+    "python": false,
+    "blender": false,
+    "image_inspection": false,
+    "video_inspection": false,
+    "audio_inspection": false
+  },
+  "checks": [
+    "Example prepared with explicit frame intervals"
+  ],
+  "blocking_issues": [],
+  "limitations": [
+    "Use the host test report for actual integration evidence; this source example does not claim visual approval."
+  ]
+}

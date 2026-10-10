@@ -1,0 +1,61 @@
+{
+  "rulebook_version": "1.0",
+  "scenes": [
+    {
+      "id": "scene_001",
+      "visual_goal": "A green circle enters beside the opening label.",
+      "main_objects": [
+        "moving circle"
+      ],
+      "beats": [
+        {
+          "start_frame": 0,
+          "end_frame": 24,
+          "kind": "object_action",
+          "action": "A green circle enters beside the opening label.",
+          "on_screen_text": [
+            "SMALL STARTS"
+          ]
+        }
+      ],
+      "claims": []
+    },
+    {
+      "id": "scene_002",
+      "visual_goal": "A lit 3D cube rotates, demonstrating the Blender engine.",
+      "main_objects": [
+        "rotating cube"
+      ],
+      "beats": [
+        {
+          "start_frame": 24,
+          "end_frame": 48,
+          "kind": "object_action",
+          "action": "A lit 3D cube rotates, demonstrating the Blender engine.",
+          "on_screen_text": []
+        }
+      ],
+      "claims": []
+    },
+    {
+      "id": "scene_003",
+      "visual_goal": "A progress line grows under the closing label.",
+      "main_objects": [
+        "progress line"
+      ],
+      "beats": [
+        {
+          "start_frame": 48,
+          "end_frame": 72,
+          "kind": "object_action",
+          "action": "A progress line grows under the closing label.",
+          "on_screen_text": [
+            "KEEP GOING"
+          ]
+        }
+      ],
+      "claims": []
+    }
+  ],
+  "references": []
+}

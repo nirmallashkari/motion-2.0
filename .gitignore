@@ -1,0 +1,27 @@
+# Credentials and installed environments are never source artifacts.
+**/secrets/
+*.dpapi
+.env
+.env.*
+*.pem
+*.key
+*_api_key.txt
+credentials*.json
+**/.venv/
+**/__pycache__/
+*.py[cod]
+_SYSTEM/engines/
+_SYSTEM/reports/
+_SYSTEM/work/
+_SYSTEM/session.lock
+_SYSTEM/assets/models/
+_SYSTEM/assets/github/raster_cache/
+INPUT/*
+!INPUT/README.txt
+OUTPUT/*
+!OUTPUT/README.txt
+.pytest_cache/
+.coverage
+*.log
+Thumbs.db
+.DS_Store

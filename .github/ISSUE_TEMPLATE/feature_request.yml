@@ -1,0 +1,23 @@
+name: Capability or improvement
+description: Propose a reusable animation, reliability or developer experience improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Use case and current limitation
+      description: Explain the problem with a synthetic story or example.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and acceptance checks
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Assets, licenses and affected components
+      description: Link original licensed sources; do not upload proprietary assets.

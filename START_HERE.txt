@@ -1,0 +1,7 @@
+Motion 2.0: AI-directed Blender + Python video production for Windows.
+1. Follow README.md and run SETUP_MOTION.bat once.
+2. Save only your API key in _SYSTEM/secrets/deepseek_api_key.txt.
+3. Place one script and one matching voiceover in INPUT.
+4. Run RUN_VIDEO.bat. Planning and image review require internet/API credit.
+5. Find the verified movie at OUTPUT/final.mp4.
+RESET_PROJECT.bat prompts for RESET, then clears project data but preserves secrets.

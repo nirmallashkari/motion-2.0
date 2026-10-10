@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "provider": "kaggle",
+  "model": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "timeout_seconds": 1800,
+  "failure_policy": "stop"
+}

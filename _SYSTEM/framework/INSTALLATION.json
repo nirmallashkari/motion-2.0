@@ -1,0 +1,10 @@
+{
+  "version": "motion-unified-2.0",
+  "workspace": ".",
+  "input": "INPUT",
+  "output": "OUTPUT/final.mp4",
+  "launcher": "RUN_VIDEO.bat",
+  "caption_mode": "off",
+  "blender_version": "5.1.1",
+  "rulebook_version": "1.0"
+}

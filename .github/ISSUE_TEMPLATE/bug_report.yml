@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible system or rendering defect using synthetic input.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload API keys, encrypted backups, personal scripts, private voice recordings or unsanitized reports. Use a tiny synthetic reproduction."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows, Python, Blender, FFmpeg versions and source commit.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction and observed result
+      description: Include a short synthetic input and precise steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Error, test output or nonpersonal preview; check for secrets first.

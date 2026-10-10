@@ -1,0 +1,55 @@
+{
+  "format": "motion-unified-2.0",
+  "rulebook_version": "1.0",
+  "title": "Unified engine smoke example",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "total_frames": 72,
+  "caption_mode": "off",
+  "seed": 91,
+  "scenes": [
+    {
+      "id": "scene_001",
+      "engine": "python",
+      "start_frame": 0,
+      "end_frame": 24,
+      "source_cues": [
+        1
+      ],
+      "script": "scenes.py",
+      "entry": "intro",
+      "description": "A green circle enters beside the opening label.",
+      "params": {}
+    },
+    {
+      "id": "scene_002",
+      "engine": "blender",
+      "start_frame": 24,
+      "end_frame": 48,
+      "source_cues": [
+        2
+      ],
+      "script": "scripts/cube.py",
+      "entry": "build",
+      "description": "A lit 3D cube rotates, demonstrating the Blender engine.",
+      "params": {}
+    },
+    {
+      "id": "scene_003",
+      "engine": "python",
+      "start_frame": 48,
+      "end_frame": 72,
+      "source_cues": [
+        3
+      ],
+      "script": "scenes.py",
+      "entry": "ending",
+      "description": "A progress line grows under the closing label.",
+      "params": {}
+    }
+  ],
+  "assets": []
+}

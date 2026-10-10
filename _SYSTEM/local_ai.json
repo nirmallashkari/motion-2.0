@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "model": "qwen3.5:2b-q4_K_M",
+  "context": 8192,
+  "timeout_seconds": 180,
+  "attempts": 2,
+  "max_scene_seconds": 8,
+  "vision_checks": false,
+  "authoring_mode": "hybrid",
+  "unmatched_policy": "abstract"
+}

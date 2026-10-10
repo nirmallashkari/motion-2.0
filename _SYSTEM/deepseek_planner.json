@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "timeout_seconds": 180,
+  "reasoning_effort": "high",
+  "max_output_tokens": 8192,
+  "failure_policy": "stop"
+}

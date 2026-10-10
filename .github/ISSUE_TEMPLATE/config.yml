@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private security report
+    url: https://github.com/nirmallashkari/motion-2.0/security/advisories/new
+    about: Report vulnerabilities privately; never post credentials in issues.
+  - name: Questions and ideas
+    url: https://github.com/nirmallashkari/motion-2.0/discussions
+    about: Discuss workflow and contribution ideas.

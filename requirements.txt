@@ -1,0 +1,6 @@
+# Core host and renderer dependencies. Blender supplies its own bpy runtime.
+Pillow==12.3.0
+numpy==2.2.6
+jsonschema==4.26.0
+resvg-py==0.5.0
+indic-transliteration==2.3.82
